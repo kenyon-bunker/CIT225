@@ -24,6 +24,6 @@ where name = 'asdad';
 
 #Delete
 delete from household
-where name = 'Johnsons';
+where name = 'Johnsons' and household_id = 4;
 
 
