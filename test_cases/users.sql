@@ -6,13 +6,13 @@ USE CIT225Project;
 INSERT INTO users (email, password, display_name, user_type, user_xp, household_id)
 VALUES ('kenyon.bunker@gmail.com', 'lehi', 'Dad', 'Admin', 0, 1);
 
-INSERT INTO users (email, password, display_name, user_type, user_xp)
+INSERT INTO users (email, password, display_name, user_type, user_xp, household_id)
 VALUES ('alea.bunker@gmail.com', 'lehi', 'Mom,', 'Admin', 0, 1);
 
-INSERT INTO users (email, password, display_name, user_type, user_xp)
+INSERT INTO users (email, password, display_name, user_type, user_xp, household_id)
 VALUES ('derek.bunker@gmail.com', 'lehi', 'Derek,', 'Standard', 0, 1);
 
-INSERT INTO users (display_name, user_type, user_xp)
+INSERT INTO users (email, password, display_name, user_type, user_xp, household_id)
 VALUES ('Mary', 'Child', 0, 1);
 
 #Family 2
@@ -22,7 +22,7 @@ VALUES ('lucy.smith@gmail.com', 'lehi', 'Mom', 'Admin', 0, 2);
 INSERT INTO users (email, password, display_name, user_type, user_xp, household_id)
 VALUES ('joseph.smith@gmail.com', 'lehi', 'Dad', 'Admin', 0, 2);
 
-INSERT INTO users (display_name, user_type, user_xp)
+INSERT INTO users (display_name, user_type, user_xp, household_id)
 VALUES ('Joseph Jr', 'Child', 0, 2);
 
 #Family 3
@@ -32,10 +32,10 @@ VALUES ('john.doe@gmail.com', 'lehi', 'Dad', 'Admin', 0, 3);
 INSERT INTO users (email, password, display_name, user_type, user_xp, household_id)
 VALUES ('jane.doe@gmail.com', 'lehi', 'Mom', 'Admin', 0, 3);
 
-INSERT INTO users (display_name, user_type, user_xp)
+INSERT INTO users (display_name, user_type, user_xp, household_id)
 VALUES ('Jill', 'Child', 0, 3);
 
-INSERT INTO users (display_name, user_type, user_xp)
+INSERT INTO users (display_name, user_type, user_xp, household_id)
 VALUES ('Joe', 'Child', 0, 3);
 
 #Family 4
@@ -45,7 +45,7 @@ VALUES ('john.johnson@gmail.com', 'lehi', 'Dad', 'Admin', 0, 4);
 INSERT INTO users (email, password, display_name, user_type, user_xp, household_id)
 VALUES ('jill.johnson@gmail.com', 'lehi', 'Mom', 'Admin', 0, 4);
 
-INSERT INTO users (display_name, user_type, user_xp)
+INSERT INTO users (display_name, user_type, user_xp, household_id)
 VALUES ('Janey', 'Child', 0, 4);
 
 #Read
